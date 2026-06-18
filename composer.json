@@ -19,15 +19,6 @@
 			"pnpm run build-production"
 		]
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../*",
-			"options": {
-				"monorepo": true
-			}
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
@@ -38,7 +29,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-cookie-consent/compare/${old}...${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.1.x-dev"
+			"dev-trunk": "0.2.x-dev"
 		}
 	}
 }
