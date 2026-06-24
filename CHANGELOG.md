@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Initial version: scaffold the cookie-consent package.
 
 ### Changed
+- Improve Jetpack Boost page-cache hit rates by excluding Cookie Consent geolocation cookies from the cache key and ensuring geolocation lookups aren’t cached.
 - Set up mirror repository and autotagger for package publishing.
 - Update package dependencies.
 
