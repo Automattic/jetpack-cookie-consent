@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - Set up mirror repository and autotagger for package publishing.
 - Update package dependencies.
 
+### Fixed
+- Set host-only cookies instead of deriving a cross-subdomain domain, which browsers reject on multi-level TLDs such as .co.uk and .com.br.
+
 ## 0.1.0-alpha - unreleased
 
 - Initial version.
