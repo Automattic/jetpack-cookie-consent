@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Add the cookie-consent PHP backend: banner/CCPA controls, Interactivity module enqueue, and consent log REST controller.
 - GDPR: Honor Global Privacy Control (GPC) as an opt-out signal, denying non-essential cookies (configurable via `gdpr_honors_gpc`).
 - Initial version: scaffold the cookie-consent package.
+- Lifecycle: Add consumer-callable cleanup APIs for deactivation and uninstall.
 
 ### Changed
 - Improve Jetpack Boost page-cache hit rates by excluding Cookie Consent geolocation cookies from the cache key and ensuring geolocation lookups aren’t cached.
