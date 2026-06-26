@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add AGENTS.md with guidance for AI coding agents working in this package.
 - Add the cookie-consent frontend Interactivity module (banner, modal, CCPA opt-out, consent logger, Tracks).
 - Add the cookie-consent PHP backend: banner/CCPA controls, Interactivity module enqueue, and consent log REST controller.
+- GDPR: Honor Global Privacy Control (GPC) as an opt-out signal, denying non-essential cookies (configurable via `gdpr_honors_gpc`).
 - Initial version: scaffold the cookie-consent package.
 
 ### Changed
