@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Secure the public consent-log write endpoint with per-IP rate limiting, URL/consent-type validation, and spoof-resistant IP detection.
+
 ### Added
 - Add AGENTS.md with guidance for AI coding agents working in this package.
 - Add the cookie-consent frontend Interactivity module (banner, modal, CCPA opt-out, consent logger, Tracks).
