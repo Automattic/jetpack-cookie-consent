@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add AGENTS.md with guidance for AI coding agents working in this package.
+- Add classic-theme fallback for required privacy/CCPA/manage-preferences links.
 - Add the cookie-consent frontend Interactivity module (banner, modal, CCPA opt-out, consent logger, Tracks).
 - Add the cookie-consent PHP backend: banner/CCPA controls, Interactivity module enqueue, and consent log REST controller.
 - GDPR: Honor Global Privacy Control (GPC) as an opt-out signal, denying non-essential cookies (configurable via `gdpr_honors_gpc`).
@@ -29,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - CCPA: Make the auto-created "Your Privacy Choices" page removable. It is now created only once, is no longer locked from deletion, and the footer links for both the privacy-choices and Privacy Policy pages are hidden if their page is deleted.
+- Keep the classic-theme footer-links control hidden until needed so it no longer overlaps the consent banner.
 - Set host-only cookies instead of deriving a cross-subdomain domain, which browsers reject on multi-level TLDs such as .co.uk and .com.br.
 
 ## 0.1.0-alpha - unreleased
