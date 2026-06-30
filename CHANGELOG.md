@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add the cookie-consent frontend Interactivity module (banner, modal, CCPA opt-out, consent logger, Tracks).
 - Add the cookie-consent PHP backend: banner/CCPA controls, Interactivity module enqueue, and consent log REST controller.
 - GDPR: Honor Global Privacy Control (GPC) as an opt-out signal, denying non-essential cookies (configurable via `gdpr_honors_gpc`).
+- Geo: Add configurable provider and region settings.
 - Initial version: scaffold the cookie-consent package.
 - Lifecycle: Add consumer-callable cleanup APIs for deactivation and uninstall.
 
