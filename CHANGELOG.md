@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Add classic-theme fallback for required privacy/CCPA/manage-preferences links.
 - Add the cookie-consent frontend Interactivity module (banner, modal, CCPA opt-out, consent logger, Tracks).
 - Add the cookie-consent PHP backend: banner/CCPA controls, Interactivity module enqueue, and consent log REST controller.
+- Document the public cookie consent lifecycle event and WP Consent API script-gating guidance.
 - GDPR: Honor Global Privacy Control (GPC) as an opt-out signal, denying non-essential cookies (configurable via `gdpr_honors_gpc`).
 - Geo: Add configurable provider and region settings.
 - Initial version: scaffold the cookie-consent package.
