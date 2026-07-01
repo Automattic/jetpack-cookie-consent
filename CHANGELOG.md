@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a configurable consent category registry.
 - Consent log: Add configurable IP address handling modes.
 - Consent log: Record policy and banner versions.
+- Docs: Restructure README to define the public API surface, an explicit internal (non-API) list, and a versioning/back-compat policy.
 - Improve Jetpack Boost page-cache hit rates by excluding Cookie Consent geolocation cookies from the cache key and ensuring geolocation lookups aren’t cached.
 - Make banner and CCPA copy configurable.
 - Set up mirror repository and autotagger for package publishing.
