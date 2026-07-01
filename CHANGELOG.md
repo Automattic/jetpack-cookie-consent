@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Document the public cookie consent lifecycle event and WP Consent API script-gating guidance.
 - GDPR: Honor Global Privacy Control (GPC) as an opt-out signal, denying non-essential cookies (configurable via `gdpr_honors_gpc`).
 - Geo: Add configurable provider and region settings.
+- Honor features.geo=false: show the banner to all visitors without a geolocation lookup.
 - Initial version: scaffold the cookie-consent package.
 - Lifecycle: Add consumer-callable cleanup APIs for deactivation and uninstall.
 
