@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - CCPA: Make the auto-created "Your Privacy Choices" page removable. It is now created only once, is no longer locked from deletion, and the footer links for both the privacy-choices and Privacy Policy pages are hidden if their page is deleted.
+- Consent log: send a REST nonce for logged-in visitors so the consent row records the real user ID instead of 0.
 - Keep the classic-theme footer-links control hidden until needed so it no longer overlaps the consent banner.
 - Make the consent banner, modal, and controls render consistently across classic and block themes, and expose their colors, spacing, and stacking order as CSS custom properties so the appearance can be customized via Additional CSS.
 - Set host-only cookies instead of deriving a cross-subdomain domain, which browsers reject on multi-level TLDs such as .co.uk and .com.br.
