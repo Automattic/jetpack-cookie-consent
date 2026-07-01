@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Lifecycle: Add consumer-callable cleanup APIs for deactivation and uninstall.
 
 ### Changed
+- Consent log: Add configurable IP address handling modes.
 - Consent log: Record policy and banner versions.
 - Improve Jetpack Boost page-cache hit rates by excluding Cookie Consent geolocation cookies from the cache key and ensuring geolocation lookups aren’t cached.
 - Make banner and CCPA copy configurable.
