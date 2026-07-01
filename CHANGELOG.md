@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Banner: Hide policy links in the preferences modal when their URL is not configured, so the Cookie Policy and Privacy Policy links never render an empty link.
 - CCPA: Make the auto-created "Your Privacy Choices" page removable. It is now created only once, is no longer locked from deletion, and the footer links for both the privacy-choices and Privacy Policy pages are hidden if their page is deleted.
 - Consent log: send a REST nonce for logged-in visitors so the consent row records the real user ID instead of 0.
 - Keep the classic-theme footer-links control hidden until needed so it no longer overlaps the consent banner.
