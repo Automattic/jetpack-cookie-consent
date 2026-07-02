@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Honor features.geo=false: show the banner to all visitors without a geolocation lookup.
 - Initial version: scaffold the cookie-consent package.
 - Lifecycle: Add consumer-callable cleanup APIs for deactivation and uninstall.
+- Register WP personal-data exporter and eraser for the consent log; rename the consent-log customer_id column to user_id.
 
 ### Changed
 - Add a configurable consent category registry.
@@ -38,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - Banner: Hide policy links in the preferences modal when their URL is not configured, so the Cookie Policy and Privacy Policy links never render an empty link.
 - CCPA: Make the auto-created "Your Privacy Choices" page removable. It is now created only once, is no longer locked from deletion, and the footer links for both the privacy-choices and Privacy Policy pages are hidden if their page is deleted.
 - Consent log: send a REST nonce for logged-in visitors so the consent row records the real user ID instead of 0.
+- Consent log: unhook the personal-data exporter/eraser filters on deactivation.
 - Keep the classic-theme footer-links control hidden until needed so it no longer overlaps the consent banner.
 - Make the consent banner, modal, and controls render consistently across classic and block themes, and expose their colors, spacing, and stacking order as CSS custom properties so the appearance can be customized via Additional CSS.
 - Set host-only cookies instead of deriving a cross-subdomain domain, which browsers reject on multi-level TLDs such as .co.uk and .com.br.
