@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Secure the public consent-log write endpoint with per-IP rate limiting, URL/consent-type validation, and spoof-resistant IP detection.
 
 ### Added
+- Add a config-driven core: init( $config ) with per-feature feature toggles and a declarative Config_Schema. Keep the jetpack_cookie_consent_config and jetpack_cookie_consent_log_retention_days filters as override points for code that does not own the init() call.
 - Add AGENTS.md with guidance for AI coding agents working in this package.
 - Add classic-theme fallback for required privacy/CCPA/manage-preferences links.
 - Add the cookie-consent frontend Interactivity module (banner, modal, CCPA opt-out, consent logger, Tracks).
