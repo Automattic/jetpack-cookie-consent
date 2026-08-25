@@ -36,6 +36,9 @@ This is an alpha version! The changes listed here are not final.
 - Set up mirror repository and autotagger for package publishing.
 - Update package dependencies.
 
+### Removed
+- Minimum supported PHP version is now 7.4.
+
 ### Fixed
 - Banner: Hide policy links in the preferences modal when their URL is not configured, so the Cookie Policy and Privacy Policy links never render an empty link.
 - CCPA: Make the auto-created "Your Privacy Choices" page removable. It is now created only once, is no longer locked from deletion, and the footer links for both the privacy-choices and Privacy Policy pages are hidden if their page is deleted.
