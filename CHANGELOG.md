@@ -13,6 +13,10 @@ This is an alpha version! The changes listed here are not final.
 - Let a later enabled `init()` boot the package after a disabled one, including from another consumer.
 - Update package dependencies.
 
+### Fixed
+- Honor Global Privacy Control on every page load, so a visitor who turns GPC on after allowing optional categories is opted out, and tell a GPC visitor in the banner and preferences that switching a category on overrides GPC for the site.
+- Stop sending the cookieless banner usage stats to pixel.wp.com when `features.tracks` is off.
+
 ## [0.1.0] - 2026-10-15
 ### Security
 - Secure the public consent-log write endpoint with per-IP rate limiting, URL/consent-type validation, and spoof-resistant IP detection. [#49850]
