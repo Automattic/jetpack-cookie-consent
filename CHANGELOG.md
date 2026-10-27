@@ -62,5 +62,5 @@ This is an alpha version! The changes listed here are not final.
 
 - Initial version.
 
-[0.2.0-alpha]: https://github.com/Automattic/jetpack-cookie-consent/compare/0.1.0...0.2.0-alpha
-[0.1.0]: https://github.com/Automattic/jetpack-cookie-consent/compare/0.1.0-alpha...0.1.0
+[0.2.0-alpha]: https://github.com/Automattic/jetpack-cookie-consent/compare/v0.1.0...v0.2.0-alpha
+[0.1.0]: https://github.com/Automattic/jetpack-cookie-consent/compare/v0.1.0-alpha...v0.1.0
